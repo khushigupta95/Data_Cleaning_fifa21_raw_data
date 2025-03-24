@@ -18,8 +18,7 @@ This project focuses on cleaning and preprocessing the raw FIFA 21 dataset to en
 
 1. **Handling Missing Values:**
    - Identified missing values in various columns.
-   - Used **mean** for numerical attributes like `height`, **median** for `weight`, and **mode** for categorical attributes like `club` to fill missing values.
-
+   
 2. **Data Type Conversion:**
    - Converted numerical columns stored as strings (e.g., `value`, `wage`) into appropriate numerical formats.
    - Standardized date formats where necessary.
